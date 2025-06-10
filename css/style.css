@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header */
+
+
+header {
+  background-color: rgb(172, 230, 227);
+  padding: 10px;
+}
+
+ul {
+  justify-content: space-evenly;
+  display: flex;
+  list-style-type: none;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25.bg-orange,
+.col-50.bg-orange {
+  padding: 10px;
+  border: 3px black dotted;
+
+
+}
+
+
+/* main */
+
+
+/* utili */
+
+.p-20 {
+  padding: 30px;
+}
+
+.text-aling {
+  text-align: end;
+}
+
+.border-white {
+  border: 2px white dotted;
+}
+
+
+/* section blu */
+
+.container-blu {
+  background-color: #0f2192;
+  display: flex;
+  justify-content: center;
+}
+
+.quadrato-rosa {
+  height: 400px;
+  width: 800px;
+  background-color: rgb(201, 123, 201);
+  border: 3px black dotted;
+}
+
+/* section bianca */
+
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60,
+.col-40 {
+
+  height: 500px;
+  border: 2px black dotted;
+}
+
+/* section grigia */
+
+.container-grigio {
+  background-color: lightgray;
+  padding: 60px 0;
+
+}
+
+.quadrato-verde {
+  height: 800px;
+  width: 1200px;
+  background-color: rgb(9, 138, 15);
+  border: 3px black dotted;
+}
+
+/* section nera */
+
+.container-nero {
+  background-color: rgb(43, 41, 41);
+  padding-top: 20px;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.bg-lightred {
+  background-color: rgb(156, 69, 69);
+}
+
+.bg-bluegreen {
+  background-color: #41ffff;
+}
+
+.col-40.bg-lightred {
+  padding: 10px;
+  border: 2px black dotted;
+  text-align: center;
+}
+
+.col-15.bg-bluegreen {
+  border: 2px white dotted;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.quadrato-fondo {
+  height: 50px;
+  width: 1200px;
+  background-color: rgb(11, 235, 149);
+}
+
+.logo {
+  width: 40px;
+  height: 25px;
+  margin: 15px 10px 20px 0px;
+  border: black dotted;
+  text-align: center;
+}
+
+.bottone {
+  width: 60px;
+  height: 25px;
+  margin: 15px 0px 20px 0px;
+  border: black dotted;
+  text-align: center;
+}
+
+.spazio {
+  justify-content: space-between;
+}
