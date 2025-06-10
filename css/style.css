@@ -8,7 +8,7 @@
 
 
 header {
-  background-color: rgb(172, 230, 227);
+  background-color: #4eafff;
   padding: 10px;
 }
 
@@ -48,10 +48,16 @@ ul {
 }
 
 
-/* main */
+
 
 
 /* utili */
+
+
+
+.color-white {
+  color: white;
+}
 
 .p-20 {
   padding: 30px;
@@ -65,10 +71,23 @@ ul {
   border: 2px white dotted;
 }
 
+.aline-center {
+  text-align: center;
+}
+
+button {
+  padding: 8px;
+}
+
+/* main */
+
 
 /* section blu */
 
+
+
 .container-blu {
+  background-image: url(../css/img/jumbo.png);
   background-color: #0f2192;
   display: flex;
   justify-content: center;
