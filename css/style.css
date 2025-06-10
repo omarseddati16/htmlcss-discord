@@ -64,6 +64,10 @@ li a {
 
 /* utili */
 
+.bg-nero {
+  background-color: black;
+}
+
 .bg-azzurro-scuro {
   background-color: #9eb4e8;
 }
