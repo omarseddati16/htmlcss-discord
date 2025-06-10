@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* header */
 
 
 header {
-  background-color: #4eafff;
+  background-color: rgb(18, 97, 214);
   padding: 10px;
 }
 
@@ -16,7 +20,22 @@ ul {
   justify-content: space-evenly;
   display: flex;
   list-style-type: none;
+
 }
+
+button,
+a {
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 
 .container {
@@ -27,7 +46,7 @@ ul {
 }
 
 .bg-orange {
-  background-color: orange;
+  background-color: rgb(18, 97, 214);
 }
 
 
@@ -42,20 +61,36 @@ ul {
 .col-25.bg-orange,
 .col-50.bg-orange {
   padding: 10px;
-  border: 3px black dotted;
-
-
 }
-
-
-
 
 
 /* utili */
 
-.color-white {
+
+.p-bottom {
+  padding: 50px 0px 20px 0px;
+}
+
+.white {
   color: white;
 }
+
+.size {
+  font-size: 40px;
+}
+
+.m-10 {
+  margin-top: 10px;
+}
+
+.m-top {
+  margin-top: 20px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
 
 .p-20 {
   padding: 30px;
@@ -65,9 +100,6 @@ ul {
   text-align: end;
 }
 
-.border-white {
-  border: 2px white dotted;
-}
 
 .aline-center {
   text-align: center;
@@ -82,18 +114,6 @@ button {
 
 /* section blu */
 
-.col-60.bg-skyblue.troll {
-  background-image: url(../css/img/item3.svg);
-}
-
-.col-60.bg-skyblue.mage {
-  background-image: url(../css/img/item2.svg);
-}
-
-.col-60.bg-skyblue.frog {
-  background-image: url(../css/img/item1.svg);
-}
-
 
 .container-blu {
   background-image: url(../css/img/jumbo.png);
@@ -105,20 +125,12 @@ button {
 .quadrato-rosa {
   height: 400px;
   width: 800px;
-  background-color: rgb(201, 123, 201);
-  border: 3px black dotted;
+
+
 }
 
 /* section bianca */
 
-
-.bg-skyblue {
-  background-color: skyblue;
-}
-
-.bg-pink {
-  background-color: pink;
-}
 
 .col-60 {
   width: 60%;
@@ -132,10 +144,14 @@ button {
 .col-40 {
 
   height: 500px;
-  border: 2px black dotted;
+
 }
 
 /* section grigia */
+
+.star {
+  background-image: url(../css/img/stars.svg);
+}
 
 .container-grigio {
   background-color: lightgray;
@@ -146,8 +162,8 @@ button {
 .quadrato-verde {
   height: 800px;
   width: 1200px;
-  background-color: rgb(9, 138, 15);
-  border: 3px black dotted;
+
+
 }
 
 /* section nera */
@@ -171,7 +187,7 @@ button {
 
 .col-40.bg-lightred {
   padding: 10px;
-  border: 2px black dotted;
+
   text-align: center;
 }
 
