@@ -64,6 +64,9 @@ li a {
 
 /* utili */
 
+.m-10 {
+  margin-top: 10px;
+}
 
 .p-bottom {
   padding: 50px 0px 20px 0px;
@@ -176,26 +179,38 @@ button {
 }
 
 .bg-lightred {
-  background-color: rgb(156, 69, 69);
+  background-color: rgb(43, 41, 41);
 }
 
 .bg-bluegreen {
-  background-color: #41ffff;
+  background-color: rgb(43, 41, 41);
 }
 
 .col-40.bg-lightred {
   text-align: center;
 }
 
-.col-15.bg-bluegreen {
-  border: 2px white dotted;
-}
 
 /* footer */
 
 footer {
   background-color: black;
 
+}
+
+
+
+ol {
+  list-style-type: none;
+}
+
+.azzurro {
+  color: rgb(18, 97, 214);
+}
+
+
+.column {
+  display: flex;
 }
 
 .scritta {
