@@ -84,6 +84,10 @@ button {
 
 /* section blu */
 
+.col-60.bg-skyblue.frog {
+  background-image: url(../css/img/item1.svg);
+}
+
 
 
 .container-blu {
