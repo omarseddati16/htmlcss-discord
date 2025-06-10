@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: rgb(18, 97, 214);
-  padding: 10px;
+
 }
 
 ul {
@@ -34,8 +34,6 @@ li a {
   color: white;
   text-decoration: none;
 }
-
-
 
 
 .container {
@@ -117,6 +115,8 @@ button {
 
 .container-blu {
   background-image: url(../css/img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #0f2192;
   display: flex;
   justify-content: center;
@@ -187,7 +187,6 @@ button {
 
 .col-40.bg-lightred {
   padding: 10px;
-
   text-align: center;
 }
 
@@ -199,7 +198,7 @@ button {
 
 footer {
   background-color: black;
-  padding-top: 10px;
+
 }
 
 .quadrato-fondo {
