@@ -132,9 +132,12 @@ button {
   background-image: url(../css/img/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-color: #0f2192;
+  height: 100%;
   display: flex;
   justify-content: center;
+
 }
 
 .quadrato-rosa {
