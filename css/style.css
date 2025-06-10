@@ -64,6 +64,10 @@ li a {
 
 /* utili */
 
+.acapo {
+  overflow-wrap: break-word;
+}
+
 .m-10 {
   margin-top: 10px;
 }
@@ -204,6 +208,8 @@ ol {
   list-style-type: none;
 }
 
+
+
 .azzurro {
   color: rgb(18, 97, 214);
 }
@@ -230,14 +236,13 @@ ol {
 .quadrato-fondo {
   height: 50px;
   width: 1200px;
-  background-color: rgb(11, 235, 149);
+
 }
 
 .logo {
   width: 40px;
   height: 25px;
-  margin: 15px 10px 20px 0px;
-  border: black dotted;
+  padding: 10px;
   text-align: center;
 }
 
