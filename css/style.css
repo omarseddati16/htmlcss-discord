@@ -183,6 +183,10 @@ button {
 
 /* section nera */
 
+i {
+  padding: 5px;
+}
+
 .container-nero {
   background-color: rgb(43, 41, 41);
   padding-top: 20px;
