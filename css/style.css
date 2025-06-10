@@ -64,6 +64,10 @@ li a {
 
 /* utili */
 
+.bg-azzurro-scuro {
+  background-color: #9eb4e8;
+}
+
 .acapo {
   overflow-wrap: break-word;
 }
