@@ -53,8 +53,6 @@ ul {
 
 /* utili */
 
-
-
 .color-white {
   color: white;
 }
@@ -84,10 +82,17 @@ button {
 
 /* section blu */
 
+.col-60.bg-skyblue.troll {
+  background-image: url(../css/img/item3.svg);
+}
+
+.col-60.bg-skyblue.mage {
+  background-image: url(../css/img/item2.svg);
+}
+
 .col-60.bg-skyblue.frog {
   background-image: url(../css/img/item1.svg);
 }
-
 
 
 .container-blu {
